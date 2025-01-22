@@ -1,0 +1,14 @@
+:root{
+  /* Paleta de colores que se van a usar. */
+
+  /* Primarios */
+  --color-orange: #FF8500;
+
+  --text-primary: #000000;
+  --text-secondary: #a9aeb5;
+
+  --color-background-primary: #EFEFEF;
+  --color-background-secondary: #222935;
+
+  /* ------------------ */
+}
