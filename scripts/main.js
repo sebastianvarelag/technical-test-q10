@@ -1,3 +1,12 @@
+// Cambio en el navbar al momento de hacer scroll.
+
+window.addEventListener('scroll', () => {
+    const nav = document.querySelector('.nav');
+    const navResponsive = document.querySelector('.nav');
+    nav?.classList.toggle('nav__sticky', window.scrollY > 0);
+    navResponsive?.classList.toggle('nav__sticky', window.scrollY > 0);
+});
+
 
 // Funcionalidad para el menú responsive.
 
