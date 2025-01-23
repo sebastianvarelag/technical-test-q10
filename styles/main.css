@@ -57,7 +57,7 @@ body{
 
   align-items: center;
   justify-content: space-between;
-  padding: 0 40px;
+  padding: 0 6rem;
 }
 
 .nav::before {
@@ -84,7 +84,7 @@ body{
   align-items: center;
   justify-content: center;
   column-gap: 40px;
-  font-size: 16px;
+  font-size: 1rem;
 
   list-style: none;
 }
@@ -117,25 +117,32 @@ body{
   border: 2px solid var(--color-orange);
 }
 
-.nav .nav__hamburger i{
+.nav .nav__hamburger{
+  display: none;
   color: var(--color-orange);
-  font-size: 40px
+  font-size: 40px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav .nav__hamburger:hover{
+  opacity: .6;
 }
 
 /* Sección hero */
 
 .hero{
   width: 100%;
-  height: 800px;
+  height: 750px;
 
-  background-color: rgba(201, 201, 201, 0.398);
+  background-color: rgba(152, 152, 152, 0.398);
   
   display: flex;
   justify-content: center;
 }
 
 .hero .hero__content{
-  width: 90%;
+  width: 80%;
   height: 100%;
 
   display: flex;
@@ -149,18 +156,18 @@ body{
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: end;
 }
 
 .hero .hero__section .hero__info{
-  position: relative;
-  top: 100px;
-
-  width: 60%;
+  width: 80%;
   
+  max-width: 500px;
+  min-width: 391px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 6rem;
 }
 
 .hero .hero__section .hero__info .hero__squire{
@@ -175,11 +182,11 @@ body{
 }
 
 .hero .hero__section .hero__info .hero__title{
-  font-size: 52px;
+  font-size: 3.3rem;
 }
 
 .hero .hero__section .hero__info .hero__description{
-  font-size: 24px;
+  font-size: 1.3rem;
 }
 
 .hero .hero__section .hero__info .hero__button_container{
@@ -220,10 +227,12 @@ body{
 }
 
 .hero .hero__section .hero__image{
-  width: 100%;
-  height: 100%;
+  width: 478px;
+  margin: 0 auto;
 
   display: flex;
   justify-content: center;
   align-items: end;
+
+  margin-bottom: 2rem;
 }
