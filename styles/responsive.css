@@ -1,5 +1,13 @@
 /* Media querys */
 
+@media screen and (max-width: 1280px) {
+  /* Partner */
+
+  .partner .partner__content .partner__section .partner__item{
+    min-width: 280px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
 
   /* Nav */
@@ -50,11 +58,23 @@
 
   /* Partner */
 
+  .partner{
+    margin-top: 3rem;
+  }
+
   .partner::before{
     top: -5rem;
     left: -13rem;
     width: 19rem;
     height: 19rem;
+  }
+
+  .partner .partner__content .partner__section--cards{
+    flex-direction: column;
+
+    width: 300px;
+
+    row-gap: 2rem;
   }
 }
 
@@ -132,14 +152,63 @@
 
   /* Partner */
 
+  .partner{
+    margin-bottom: 3rem;
+  }
+
   .partner::before{
     top: -5rem;
+    left: -16rem;
     width: 19rem;
     height: 19rem;
   }
 
   .partner .partner__content .partner__section .partner__title {
     font-size: 2rem;
+  }
+  
+  .partner .partner__content .partner__section--cards {
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+
+  .partner .partner__content .partner__section .partner__item {
+    min-width: 250px;
+  }
+
+  .partner .partner__content .partner__section .partner__item .partner__info .partner__info__title{
+    font-size: 1.2rem;
+  }
+
+  /* Sección de Associate */
+
+  .associate{
+    margin-top: 0;
+    margin-bottom: 3rem;
+  }
+  
+  .associate::before{
+    top: -5rem;
+    right: -16rem;
+    width: 19rem;
+    height: 19rem;
+  }
+  
+  .associate .associate__title{
+    font-size: 2rem;
+  }
+
+  .associate .associate__section--cards{
+    flex-direction: column;
+  }
+
+  .associate .associate__item .associate__button .associate__button--text{
+    width: 35%;
+    font-size: 1rem;
+  }
+
+  .associate .associate__item .associate__button button{
+    font-size: .9rem;
   }
 }
 
