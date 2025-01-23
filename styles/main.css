@@ -117,6 +117,9 @@ body{
   border: 2px solid var(--color-orange);
 }
 
+
+/* Menú responsive */
+
 .nav .nav__hamburger{
   display: none;
   color: var(--color-orange);
@@ -125,8 +128,53 @@ body{
   transition: all 0.3s ease-in-out;
 }
 
-.nav .nav__hamburger:hover{
+.nav .nav__close{
+  color: var(--color-orange);
+  justify-self: flex-end;
+  font-size: 40px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin: 20px;
+}
+
+.nav .nav__hamburger:hover, .nav .nav__close:hover{
   opacity: .6;
+}
+
+.nav .nav__menu__responsive{
+  width: 100%;
+  height: 100vh;
+  background-color: var(--color-background-secondary);
+  position: absolute;
+  top: 0;
+  right: 100%;
+
+  transition: all 0.5s;
+}
+
+.nav .nav__menu__responsive .nav__list{
+  width: 100%;
+
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px;
+}
+
+.nav .nav__menu__responsive .nav__list .nav__item{
+  font-size: 1rem;
+
+  padding: 12px 0;
+}
+
+.nav__menu__responsive .nav__list .nav__item--button{
+  background-color: var(--color-orange);
+  
+  color: var(--text-white);
+  font-weight: 600;
+
+  border: 2px solid transparent;
+  border-radius: 12px;
+  padding: 12px 30px !important;
 }
 
 /* Sección hero */
