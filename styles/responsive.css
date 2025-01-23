@@ -76,6 +76,20 @@
 
     row-gap: 2rem;
   }
+
+  /* BePartner Hero */
+
+  .bepartner__section--hero{
+    column-gap: 1rem;
+  }
+
+  .bepartner__section .bepartner__image{
+    width: 300px;
+  }
+
+  .bepartner .bepartner__image--reverse{
+    top: -60px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -210,8 +224,19 @@
   .associate .associate__item .associate__button button{
     font-size: .9rem;
   }
-}
 
-@media screen and (max-width: 480px) {
-  
+  /* Sección de BePartner */
+
+  .bepartner .bepartner__content{
+    background: var(--color-background-secondary);
+  }
+
+  .bepartner .bepartner__section{
+    width: 80%;
+
+    margin: auto;
+
+    flex-direction: column;
+    row-gap: 2rem;
+  }
 }

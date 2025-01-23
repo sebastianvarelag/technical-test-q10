@@ -199,7 +199,7 @@ body {
 	height: 100vh;
 	background-color: var(--color-background-secondary);
 	position: absolute;
-	top: 0;
+	top: -44px;
 	right: -100%;
 
   z-index: 25;
@@ -670,26 +670,73 @@ body {
 
 /* -------------------------------- */
 
-/* Inicio parte de steps */
+/* Inicio parte de BePartner */
 
-.steps .steps__image--reverse{
+.bepartner .bepartner__image{
   position: relative;
-  top: -2px;
+  bottom: -5px;
+}
+
+.bepartner .bepartner__image--reverse{
+  position: relative;
+  top: -85px;
 
   transform: rotate(180deg);
+  z-index: 0;
 }
 
-.steps .steps__section{
+.bepartner .bepartner__section{
   width: 100%;
-  height: 700px;
+  height: fit-content;
+  
   background: var(--color-background-secondary);
 
+
   display: flex;
-  flex-direction: column;
-  text-align: center;
+  justify-content: center;
 }
 
-.steps__section .steps__title{
-  font-size: 1.5rem;
+.bepartner__section--hero{
+
+  position: relative;
+
+  z-index: 1;
+
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10rem;
+}
+
+.bepartner__section .bepartner__title{
   color: var(--text-white);
+}
+
+.bepartner__section .bepartner__title, .bepartner__section .bepartner__title span{
+  font-size: 1.5rem;
+}
+
+.bepartner__section .bepartner__image{
+  width: 478px;
+
+	display: flex;
+	justify-content: center;
+	align-items: end;
+}
+
+.bepartner__section .bepartner__info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  row-gap: 1rem;
+}
+
+.bepartner__section .bepartner__info .bepartner__subtitle{
+  font-size: 1.4rem;
+  color: var(--text-white);
+}
+
+.bepartner__section .bepartner__info .bepartner__description{
+  color: var(--text-therdary);
 }
