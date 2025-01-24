@@ -1041,3 +1041,84 @@ section {
 }
 
 /* -------------------------------- */
+
+/* Sección Footer */
+
+.footer {
+	padding-top: 5rem;
+
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	background: var(--color-background-secondary);
+}
+
+.footer .footer__content {
+	border-top: 2px solid var(--color-orange);
+
+	width: 90%;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+
+	column-gap: 3rem;
+
+	padding: 3rem 0;
+}
+
+.footer .footer__content .footer__company .footer__logo{
+	width: 180px;
+	transition: all 0.3s ease-in-out;
+}
+
+.footer .footer__content .footer__company .footer__logo:hover{
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+.footer .footer__content .footer__company .footer__description__text{
+	color: var(--text-therdary);
+	margin-left: 1rem;
+}
+
+.footer .footer__content .footer__links{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 3rem;
+}
+
+.footer .footer__content .footer__links .footer__list{
+	max-width: 160px;
+	min-width: 140px;
+}
+
+.footer .footer__content .footer__links .footer__list__title{
+	font-size: 1rem;
+	font-weight: 500;
+
+	color: var(--text-white);
+
+	margin-bottom: 1rem;
+}
+
+.footer .footer__content .footer__links .footer__item{
+	font-size: 1rem;
+
+	color: var(--text-therdary);
+}
+
+.footer .footer__content .footer__links .footer__item:hover{
+	text-decoration: underline;
+}
+
+.footer .footer__copy{
+	padding: 1rem;
+	color: var(--text-therdary);
+}

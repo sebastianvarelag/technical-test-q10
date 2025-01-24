@@ -307,4 +307,17 @@
     font-size: 1rem;
     color: var(--text-therdary);
   }
+
+  /* Sección de Footer */
+
+  .footer .footer__content {
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+
+  .footer .footer__content .footer__links{
+    margin-left: 1rem;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
 }
