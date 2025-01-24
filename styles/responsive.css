@@ -6,6 +6,12 @@
   .partner .partner__content .partner__section .partner__item{
     min-width: 280px;
   }
+
+  /* Steps */
+
+  .steps .steps__content .steps__section .steps__item{
+    min-width: 280px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -89,6 +95,22 @@
 
   .bepartner .bepartner__image--reverse{
     top: -60px;
+  }
+
+  /* Steps */
+
+  .steps{
+    margin-top: 3rem;
+  }
+
+  .steps .steps__content .steps__section--cards{
+    flex-direction: row;
+
+    row-gap: 2rem;
+  }
+
+  .steps .steps__content .steps__section .steps__item{
+    min-width: 12rem;
   }
 }
 
@@ -232,11 +254,57 @@
   }
 
   .bepartner .bepartner__section{
-    width: 80%;
+    width: 90%;
 
     margin: auto;
 
     flex-direction: column;
     row-gap: 2rem;
+  }
+
+  /* Sección de Steps */
+
+  .steps{
+    margin-bottom: 3rem;
+  }
+
+  .steps::before{
+    top: -5rem;
+    left: -16rem;
+    width: 19rem;
+    height: 19rem;
+  }
+
+  .steps .steps__content .steps__section .steps__title {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  .steps .steps__content .steps__section .steps__title span {
+    font-size: 1.8rem;
+  }
+  
+  .steps .steps__content .steps__section--cards {
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+
+  .steps .steps__content .steps__section .steps__item {
+    min-width: 100%;
+  }
+
+  .steps .steps__content .steps__section .steps__item .steps__info .steps__info__title{
+    font-size: 1.2rem;
+  }
+
+  /* Sección del Slider */
+
+  .slider .slider__list .slider__item .slider__info .slider__info__title {
+    font-size: 1.5rem;
+    color: var(--text-white);
+  }
+  
+  .slider .slider__list .slider__item .slider__info .slider__info__description {
+    font-size: 1rem;
+    color: var(--text-therdary);
   }
 }
