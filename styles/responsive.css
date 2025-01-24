@@ -1,13 +1,21 @@
 /* Media querys */
 
 @media screen and (max-width: 1280px) {
-  /* Partner */
+  /* -------------------------------- */
+
+  /* Inicio de la sección Partner */
+
+  /* -------------------------------- */
 
   .partner .partner__content .partner__section .partner__item{
     min-width: 280px;
   }
 
-  /* Steps */
+  /* -------------------------------- */
+
+  /* Inicio de la sección Steps */
+
+  /* -------------------------------- */
 
   .steps .steps__content .steps__section .steps__item{
     min-width: 280px;
@@ -16,7 +24,11 @@
 
 @media screen and (max-width: 1024px) {
 
-  /* Nav */
+  /* -------------------------------- */
+
+  /* Inicio de la sección Nav */
+
+  /* -------------------------------- */
 
   .nav{
     padding: 0 1rem;
@@ -31,7 +43,11 @@
     font-size: .8rem;
   }
 
-  /* Hero */
+  /* -------------------------------- */
+
+  /* Inicio de la sección Hero */
+
+  /* -------------------------------- */
 
   .hero{
     height: 550px;
@@ -62,7 +78,11 @@
     min-width: 335px;
   }
 
-  /* Partner */
+  /* -------------------------------- */
+
+  /* Inicio de la sección Partner */
+
+  /* -------------------------------- */
 
   .partner{
     margin-top: 3rem;
@@ -83,7 +103,11 @@
     row-gap: 2rem;
   }
 
-  /* BePartner Hero */
+  /* -------------------------------- */
+
+  /* Inicio de la sección BePartner */
+
+  /* -------------------------------- */
 
   .bepartner__section--hero{
     column-gap: 1rem;
@@ -97,7 +121,11 @@
     top: -60px;
   }
 
-  /* Steps */
+  /* -------------------------------- */
+
+  /* Inicio de la sección Steps */
+
+  /* -------------------------------- */
 
   .steps{
     margin-top: 3rem;
@@ -115,14 +143,24 @@
 }
 
 @media screen and (max-width: 768px) {
-  /* Topbar */
+  /* -------------------------------- */
+
+  /* Inicio de la sección Topbar */
+
+  /* -------------------------------- */
+
   .header .topbar .topbar__text {
     display: none;
   }
 
-  /* Nav */
+  /* -------------------------------- */
+
+  /* Inicio de la sección Header */
+
+  /* -------------------------------- */
+
   .header .nav {
-    padding: 0 16px;  /* Ya no necesita !important */
+    padding: 0 16px;
   }
 
   .nav .nav__logo img {
@@ -138,7 +176,11 @@
     align-items: center;
   }
 
-  /* Hero */
+  /* -------------------------------- */
+
+  /* Inicio de la sección Hero */
+
+  /* -------------------------------- */
 
   .hero{
     height: fit-content;
@@ -186,7 +228,11 @@
     min-width: 335px;
   }
 
-  /* Partner */
+  /* -------------------------------- */
+
+  /* Inicio de la sección Partner */
+
+  /* -------------------------------- */
 
   .partner{
     margin-bottom: 3rem;
@@ -216,7 +262,11 @@
     font-size: 1.2rem;
   }
 
-  /* Sección de Associate */
+  /* -------------------------------- */
+
+  /* Inicio de la sección Associate */
+
+  /* -------------------------------- */
 
   .associate{
     margin-top: 0;
@@ -262,7 +312,11 @@
     row-gap: 2rem;
   }
 
-  /* Sección de Steps */
+  /* -------------------------------- */
+
+  /* Inicio de la sección Steps */
+
+  /* -------------------------------- */
 
   .steps{
     margin-bottom: 3rem;
@@ -296,7 +350,11 @@
     font-size: 1.2rem;
   }
 
-  /* Sección del Slider */
+  /* -------------------------------- */
+
+  /* Inicio de la sección Slider */
+
+  /* -------------------------------- */
 
   .slider .slider__list .slider__item .slider__info .slider__info__title {
     font-size: 1.5rem;
@@ -308,7 +366,11 @@
     color: var(--text-therdary);
   }
 
-  /* Sección de Footer */
+  /* -------------------------------- */
+
+  /* Inicio de la sección Footer */
+
+  /* -------------------------------- */
 
   .footer .footer__content {
     flex-direction: column;
