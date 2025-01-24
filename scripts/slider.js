@@ -8,7 +8,7 @@ const slides = {
   },
   1: {
     title: 'Líderes en Latinoamérica',
-    description: 'Q10 contribuye al desarrollo de instituciones de educación y empresas mediante la transformación tecnológica de procesos académicos, administrativos, comerciales y de educación virtual.',
+    description: 'Q10 contribuye al desarrollo de instituciones de educación y empresas con la transformación tecnológica en procesos académicos y educación virtual.',
     button: 'Conocer más',
   },
 };
